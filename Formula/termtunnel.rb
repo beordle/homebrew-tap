@@ -11,6 +11,7 @@ class Termtunnel < Formula
     bin.install "termtunnel"
   end
 
+
   test do
     system "#{bin}/termtunnel"
   end
