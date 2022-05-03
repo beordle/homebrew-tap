@@ -1,8 +1,8 @@
 class Termtunnel < Formula
-  desc "Terminal tunnel tool like lrzsz"
+  desc "Network tunnel tool over tty as lrzsz can"
   homepage "https://github.com/beordle/termtunnel"
-  url "https://github.com/beordle/termtunnel/archive/refs/tags/v1.4.2.tar.gz"
-  sha256 "d35b97659b2e7357c4ce78767ac31297639615caa29de862099ea5bac4938976"
+  url "https://github.com/beordle/termtunnel/archive/refs/tags/version-1.4.2.tar.gz"
+  sha256 "574decb333bd3cc1a01d9d0e83d7f235152b4f344a049b26f76bd8ffcc6d8a03"
   license "MIT"
   depends_on "cmake" => :build
   def install
